@@ -1,45 +1,29 @@
+import { NavBar } from "../components/Navbar";
+
 export default function Root() {
     return (
       <>
-        <div id="sidebar">
-          <h1>Frida Estefanía</h1>
-          <nav>
-            <ul>
-              <li>
-                <a href={`/codes`}>Let me build you something</a>
-              </li>
-              <li>
-                <a href={`/passion`}>Passion Projects</a>
-              </li>
-              <li>
-                <a href={`/huellitas`}>Huellitas</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div id="detail">
+        <NavBar />
+        <div className="main-container">
           <p>Welcome! My name is Frida.</p>
           <p>
             I'm a queer Mexicana living in the Bay area trying to survive this capitalistic world.
-            I'm a creative with a variety of passion projects and a senior engineer.
+            Alongside my role as a seasoned engineer, I thrive on creative endeavors, nurturing various passion projects.
           </p>
           <p>
-            If you're looking for help with your website, phone application, or just need some tech advice,
-            go click on "Let me build you something". I've been a coder and technical consultant for 6 years, I offer competitive technical services
-            for a variety of project types. Here you can see some of my experience with past projects, some
-            technical blog writing, and a way to inquire about your current project and check availability. 
+            If you seek assistance with website development, mobile applications, or simply crave some tech savvy guidance,
+            feel free to explore the "Tech Hub" section. With six years of experience in coding and technical consultation, 
+            I offer competitive services tailored to diverse project needs. Dive into my portfolio showcasing past projects,
+            delve into technical blog insights, and easily inquire about your current project.
           </p>
           <p>
-            If you're looking for the creative fun stuff, look no further than the passion projects tab.
-            See what I'm currently working on, art for sale, and from time to time, random rants.
-            If you see something you like, please support in any way you can!
+            For a glimpse into the realm of creative indulgence, venture into the passion projects tab. 
+            Discover my ongoing creative pursuits, available artworks, and occasional musings. Your support in any form is immensely appreciated!
           </p>
           <p>
-            Lastly, I'm working on launching a nonprofit called "Huellitas".
-            Huellitas will have a focus on working hard to protect animals from abuse, neglect, and cruelty. 
-            Once we are fully established, we will be a no-kill, all-hugs rescue/sanctuary for animals with no place else to go. 
-            At Huellitas, we will rehabilitate, train and give animals another chance at the life they truly deserve. 
-            Head over to "Huellitas" to learn more. 
+            On a heartfelt note, I'm fervently working towards the launch of a nonprofit endeavor named "Huellitas." 
+            This initiative is dedicated to safeguarding animals from abuse, neglect, and cruelty. Once fully established, "Huellitas" will operate as a no-kill sanctuary, 
+            offering love and rehabilitation to animals in need of refuge. Explore the "Huellitas" section to learn more about our mission and vision.
           </p>
         </div>
       </>
