@@ -10,17 +10,15 @@ export const NavBar = () => {
           </a>
         </div>
         <div className="right-nav">
-          <ul>
-            <li>
-              <a href={'/codes'}>Tech Hub</a>
-            </li>
-            <li>
-              <a href={'/passion'}>Passion Projects</a>
-            </li>
-            <li>
-              <a href={'/huellitas'}>Huellitas</a>
-            </li>
-          </ul>
+          <div>
+            <a href={'/codes'}><h3>Tech Hub</h3></a>
+          </div>
+          <div>
+            <a href={'/passion'}><h3>Passion Projects</h3></a>
+          </div>
+          <div>
+            <a href={'/huellitas'}><h3>Huellitas</h3></a>
+          </div>
         </div>
       </div>
       <div className="banner-container">
