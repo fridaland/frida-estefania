@@ -6,24 +6,24 @@ import Root from './routes/root';
 import Codes from './routes/codes';
 import Passion from './routes/passion';
 import Huellitas from './routes/huellitas';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <Root />,
   },
   {
-    path: "/codes",
+    path: '/codes',
     element: <Codes />,
   },
   {
-    path: "/passion",
+    path: '/passion',
     element: <Passion />,
   },
   {
-    path: "/huellitas",
+    path: '/huellitas',
     element: <Huellitas />,
   },
 ]);

@@ -1,15 +1,15 @@
-import { NavBar } from "../components/Navbar";
+import { NavBar } from '../components/Navbar';
 
 export default function Huellitas() {
-    return (
-      <>
-        <NavBar />
-        <div id="detail">
-          <p>
+  return (
+    <>
+      <NavBar />
+      <div id="detail">
+        <p>
             🚧 Coming soon 🚧
-          </p>
-        </div>
-      </>
-    );
-  }
+        </p>
+      </div>
+    </>
+  );
+}
   
