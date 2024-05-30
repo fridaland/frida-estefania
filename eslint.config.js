@@ -33,5 +33,6 @@ module.exports = [
         version: 'detect',
       },
     },
+    ignores: ["package.json", "package-lock.json", "node_modules/"],
   },
 ];

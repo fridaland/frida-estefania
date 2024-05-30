@@ -4,10 +4,10 @@ export default function Passion() {
   return (
     <>
       <NavBar />
-      <div id="detail">
-        <p>
+      <div className="main-container">
+        <h1>
           🚧 Coming soon 🚧
-        </p>
+        </h1>
       </div>
     </>
   );
