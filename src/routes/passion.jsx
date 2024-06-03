@@ -1,14 +1,15 @@
+import { MainContainer } from '../components/MainContainer';
 import { NavBar } from '../components/NavBar';
 
 export default function Passion() {
   return (
     <>
       <NavBar />
-      <div className="main-container">
+      <MainContainer>
         <h1>
           🚧 Coming soon 🚧
         </h1>
-      </div>
+      </MainContainer>
     </>
   );
 }

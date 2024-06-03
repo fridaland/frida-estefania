@@ -23,6 +23,14 @@ body {
   font-family: 'sans-serif';
 }
 
+.navbar-active {
+  color: darkred;
+}
+digit
+.navbar a:hover {
+  color: #333333;
+}
+
 .left-nav {
   display: flex;
   padding-left: 40px;
@@ -54,9 +62,6 @@ body {
   content: '';
 }
 
-.main-content-wrapper {
-  position: relative;
-}
 .banner-container {
   height: 400px;
   position: relative;
@@ -82,14 +87,20 @@ body {
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
-  align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+.main-container-center {
+  display: flex;
+  align-items: center;
+  width: -webkit-fill-available;
 }
 
 .main-container-info {
   width: 600px;
   margin-right: 100px;
+  margin-left: 100px;
   text-align: left;
   background: linear-gradient(341deg, white, transparent);
 }
@@ -103,6 +114,19 @@ body {
   padding-right: 100px;
 }
 
+.main-container-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  a { 
+    padding-right: 20px;
+  }
+}
 .avatar{
   height: 400px;
   border-radius: 15%;
@@ -114,4 +138,85 @@ body {
     object-fit: contain;
     height: 400px;
   }
+}
+
+.main-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.tech-hub-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.tech-hub-header img {
+  margin-right: 60px;
+}
+
+.tech-hub-header img:last-child {
+  margin-right: 0;
+}
+
+.tech-hub-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.tech-hub-info {
+  flex: 1;
+  margin-right: 20px;
+  margin-left: 40px;
+  text-align: justify;
+  max-width: 40%;
+}
+
+.tech-hub-contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 50%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.contact-form label {
+  font-family: 'sans-serif';
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: darkslategray;
+  color: white;
+  font-family: 'sans serif';
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #333;
 }
